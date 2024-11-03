@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Volta Electric Scooters</title>
+</head>
+<body>
+    <div id="intro">
+        <img src="images/volta.png" alt="Intro Image">
+        <button id="enter-button">ENTER</button>
+    </div>
+    <header>
+        <img src="images/logo.png" alt="Volta Logo" class="logo">
+        <h1>Volta Electric Scooters</h1>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>Nosotros</h2>
+            <div class="about-content">
+                <img src="images/scooter.jpg" alt="Scooter" class="about-img">
+                <p>¡Bienvenido a Volta! Disfruta de un buen rato en familia con nuestros scooters. Nuestros scooters son eco-friendly, eficientes y muy divertidos de manejar.</p>
+            </div>
+        </section>
+        <section id="services-contact">
+            <h2>Servicios y Contáctanos</h2>
+            <p>Ofrecemos una gama de servicios que incluyen renta y mantenimiento de scooters eléctricos.</p>
+            <div class="contact-container">
+                <form id="contact-form" method="post" action="#">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <div class="map-container">
+                <h2>Ubicación</h2>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d800.921051446997!2d-71.5923713796478!3d10.653510081671362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8999c58b74fc91%3A0xc6ac07cbb2010994!2sVolta%20%7C%20Alquiler%20de%20Scooters!5e0!3m2!1ses!2sve!4v1729898010037!5m2!1ses!2sve" 
+                    class="map" 
+                    style="border:0;" 
+                    allowfullscreen 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Volta Electric Scooters. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
